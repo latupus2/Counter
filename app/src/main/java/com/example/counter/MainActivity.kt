@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         add.setOnClickListener {
             num.text = (((num.text).toString()).toInt() + addingNumber).toString()
+
         }
 
         seekBar.setOnSeekBarChangeListener(
